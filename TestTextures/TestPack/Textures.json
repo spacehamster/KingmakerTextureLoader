@@ -1,0 +1,58 @@
+{
+    "Blueprints": [
+      {
+        "Id": "7a1211c05ec2c46428f41e3c0db9423f",
+        "Type": "Weapon",
+        "Texture": "TestTexture.png"
+      },
+      {
+        "Id": "7a1211c05ec2c46428f41e3c0db9423f",
+        "Type": "Sheath",
+        "Texture": "TestTexture.png"
+      }
+    ],
+  "EquipmentEntities": [
+    {
+      "Id": "201f6150321e09048bd59e9b7f558cb0",
+      "Type": "BodyPart",
+      "replaces": "CF_CuffsPointed_GlovesManticore",
+      "Texture": "TestTexture.png"
+    },
+    {
+      "Id": "201f6150321e09048bd59e9b7f558cb0",
+      "Type": "BodyPart",
+      "replaces": "HN_Gloves_GlovesManticore",
+      "Texture": "TestTexture.png"
+    },
+    {
+      "Id": "9875b1f3cf3b8bf42a5fb99907e5a794",
+      "Type": "Outfit",
+      "replaces": "ST_BagWarrior_U_Any",
+      "Texture": "TestTexture.png"
+    },
+    {
+      "Id": "a9558cfc0705d4e48af7ecd2ebd75411",
+      "Type": "PrimaryRamp",
+      "replaces": "CR_Hair_BrownDark_M_HM",
+      "Texture": "TestTexture.png"
+    },
+    {
+      "Id": "551682302c6f9b146b7657c52b5cabac",
+      "Type": "ColorProfilePrimary",
+      "replaces": "CR_Fighter_BlueDarker",
+      "Texture": "TestTexture.png"
+    },
+    {
+      "Id": "551682302c6f9b146b7657c52b5cabac",
+      "Type": "ColorProfileSecondary",
+      "replaces": "CR_Fighter_BlueDarker",
+      "Texture": "TestTexture.png"
+    },
+    {
+      "Id": "a9558cfc0705d4e48af7ecd2ebd75411",
+      "Type": "BodyPart",
+      "replaces": "H1_HairLongWavy_BW_M_HM",
+      "Texture": "TestTexture.png"
+    }
+  ]
+}

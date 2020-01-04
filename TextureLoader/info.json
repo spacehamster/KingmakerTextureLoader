@@ -1,0 +1,12 @@
+{
+  "Id": "TextureLoader",
+  "DisplayName": "Texture Loader",
+  "Author": "spacehamster",
+  "Version": "1.0.0",
+  "ManagerVersion": "0.14.1",
+  "Requirements": [],
+  "AssemblyName": "TextureLoader.dll",
+  "EntryMethod": "TextureLoader.Main.Load",
+  "HomePage": "https://github.com/spacehamster/KingmakerTextureLoader",
+  "Repository": "https://raw.githubusercontent.com/spacehamster/KingmakerTextureLoader/master/TextureLoader/TextureLoader/Repository.json"
+}

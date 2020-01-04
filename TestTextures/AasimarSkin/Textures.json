@@ -1,0 +1,64 @@
+{
+    "EquipmentEntities": [
+        {
+            "Id": "61a8f7b272e6a08499794018da672892",
+            "Type": "ColorProfilePrimary",
+            "Replaces": "CR_Skin_Black_U_AS",
+            "Texture": "CR_Skin_Black_U_HM.png"
+        },
+        {
+            "Id": "61a8f7b272e6a08499794018da672892",
+            "Type": "ColorProfilePrimary",
+            "Replaces": "CR_Skin_Tan_U_AS",
+            "Texture": "CR_Skin_Tan_U_HM.png"
+        },
+        {
+            "Id": "61a8f7b272e6a08499794018da672892",
+            "Type": "ColorProfilePrimary",
+            "Replaces": "CR_Skin_White_U_AS",
+            "Texture": "CR_Skin_White_U_HM.png"
+        },
+        {
+            "Id": "61a8f7b272e6a08499794018da672892",
+            "Type": "ColorProfilePrimary",
+            "Replaces": "CR_Skin_Pale_U_AS",
+            "Texture": "CR_Skin_Pale_U_HM.png"
+        },
+        {
+            "Id": "61a8f7b272e6a08499794018da672892",
+            "Type": "ColorProfilePrimary",
+            "Replaces": "CR_Skin_Yellow_U_AS",
+            "Texture": "CR_Skin_Yellow_U_HM.png"
+        },
+        {
+            "Id": "944a6c1d75a489b43bb9535fcb164d3c",
+            "Type": "ColorProfilePrimary",
+            "Replaces": "CR_Skin_Black_U_AS",
+            "Texture": "CR_Skin_Black_U_HM.png"
+        },
+        {
+            "Id": "944a6c1d75a489b43bb9535fcb164d3c",
+            "Type": "ColorProfilePrimary",
+            "Replaces": "CR_Skin_Tan_U_AS",
+            "Texture": "CR_Skin_Tan_U_HM.png"
+        },
+        {
+            "Id": "944a6c1d75a489b43bb9535fcb164d3c",
+            "Type": "ColorProfilePrimary",
+            "Replaces": "CR_Skin_White_U_AS",
+            "Texture": "CR_Skin_White_U_HM.png"
+        },
+        {
+            "Id": "944a6c1d75a489b43bb9535fcb164d3c",
+            "Type": "ColorProfilePrimary",
+            "Replaces": "CR_Skin_Pale_U_AS",
+            "Texture": "CR_Skin_Pale_U_HM.png"
+        },
+        {
+            "Id": "944a6c1d75a489b43bb9535fcb164d3c",
+            "Type": "ColorProfilePrimary",
+            "Replaces": "CR_Skin_Yellow_U_AS",
+            "Texture": "CR_Skin_Yellow_U_HM.png"
+        }		
+    ]
+}
