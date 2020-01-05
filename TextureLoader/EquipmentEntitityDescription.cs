@@ -37,7 +37,8 @@ namespace TextureLoader
                 }
                 m_Setter = (_ee) =>
                 {
-                    _ee.BodyParts[bpIndex].Textures[0] = new CharacterTextureDescription(CharacterTextureChannel.Diffuse, m_Texture);
+                    var ctd = _ee.BodyParts[bpIndex].Textures[0];
+                    Access.CharacterTextureDescription_Texture(ctd) = m_Texture;
                 };
             }
             else if (Type == ReplacementType.Outfit)
