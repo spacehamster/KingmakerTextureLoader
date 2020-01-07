@@ -41,17 +41,17 @@ namespace TextureLoader
                     Access.CharacterTextureDescription_Texture(ctd) = m_Texture;
                 };
             }
-            else if (Type == ReplacementType.Outfit)
+            else if (Type == ReplacementType.OutfitPartPrefab)
             {
                 var opIndex = ee.OutfitParts
-                    .FindIndex(op => Access.PrefabRef(op).gameObject.name == Replaces);
+                    .FindIndex(op => Access.OutfitPart_Prefab(op).gameObject.name == Replaces);
                 if (opIndex < 0)
                 {
-                    Main.Error($"Could not find OutfitPart for EE[{ee.name}].OutfitParts[{Replaces}]");
+                    Main.Error($"Could not find OutfitPartPrefab for EE[{ee.name}].OutfitParts[{Replaces}]");
                     m_Setter = DummySetter;
                     return;
                 }
-                var prefab = Access.PrefabRef(ee.OutfitParts[opIndex]);
+                var prefab = Access.OutfitPart_Prefab(ee.OutfitParts[opIndex]);
                 var mat = prefab?.GetComponentInChildren<Renderer>()?.material;
                 if(mat == null)
                 {
@@ -62,8 +62,24 @@ namespace TextureLoader
                 }
                 m_Setter = (_ee) =>
                 {
-                    var _prefab = Access.PrefabRef(_ee.OutfitParts[opIndex]);
+                    var _prefab = Access.OutfitPart_Prefab(_ee.OutfitParts[opIndex]);
                     var _mat = _prefab.GetComponentInChildren<Renderer>().material;
+                    _mat.mainTexture = m_Texture;
+                };
+            }
+            else if (Type == ReplacementType.OutfitPartMaterial)
+            {
+                var opIndex = ee.OutfitParts
+                    .FindIndex(op => Access.OutfitPart_Material(op)?.name == Replaces);
+                if (opIndex < 0)
+                {
+                    Main.Error($"Could not find OutfitPartMaterial for EE[{ee.name}].OutfitParts[{Replaces}]");
+                    m_Setter = DummySetter;
+                    return;
+                }
+                m_Setter = (_ee) =>
+                {
+                    var _mat = Access.OutfitPart_Material(_ee.OutfitParts[opIndex]);
                     _mat.mainTexture = m_Texture;
                 };
             }

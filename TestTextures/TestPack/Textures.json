@@ -26,7 +26,7 @@
     },
     {
       "Id": "9875b1f3cf3b8bf42a5fb99907e5a794",
-      "Type": "Outfit",
+      "Type": "OutfitPartPrefab",
       "replaces": "ST_BagWarrior_U_Any",
       "Texture": "TestTexture.png"
     },
@@ -52,6 +52,12 @@
       "Id": "a9558cfc0705d4e48af7ecd2ebd75411",
       "Type": "BodyPart",
       "replaces": "H1_HairLongWavy_BW_M_HM",
+      "Texture": "TestTexture.png"
+    },
+    {
+      "Id": "70dd94ce2d73703469acc006134400d5",
+      "Type": "OutfitPartMaterial",
+      "replaces": "Cape_WolfPeltWorg",
       "Texture": "TestTexture.png"
     }
   ]
